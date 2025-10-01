@@ -1,0 +1,18 @@
+name: commot_mod
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.9
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - anndata
+  - scanpy
+  - plotly
+  - pot            # = Python Optimal Transport (ot)
+  - matplotlib
+  - pip            # 需要 pip 時，先列出 pip 本身
+  # - pip:
+  #   - <只有 pip 才有的套件放這裡>
